@@ -3,37 +3,52 @@ body {
     font-family: 'Georgia', serif; 
 }
 
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Heading style */
 heading {
     font-weight: bold;
 }
 
+/* Make sure home goes to top */
 #top {
     position: relative;
-    top: -60px;       /* Adjust to match the navbar height */
-    visibility: hidden; /* Hides the anchor from view */
+    top: -60px;
+    visibility: hidden;
 }
 
+/* To make sure top goes to top */
 :root {
-    scroll-padding-top: 60px; /* Adjust this value to match the height of your navbar */
+    scroll-padding-top: 60px;
 }
 
-/* Basic navbar styling */
 nav {
-    background-color: #e2c027;           /* Background color for navbar */
+    background-color: #e2c027;
     padding: 5px 0;
-    width: 100%;                      /* Full width across the page */
-    position: fixed;                  /* Fixed position makes it float */
-    top: 0;                           /* Aligns it to the top of the viewport */
-    z-index: 1000;                    /* Ensures it stays above other content */
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav ul {
-    list-style-type: none;            /* Removes bullet points */
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;                    /* Align items horizontally */
-    justify-content: center;          /* Center-align the nav links */
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
@@ -41,21 +56,55 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;                     /* Link text color */
-    text-decoration: none;            /* Removes underline */
+    color: black;
+    text-decoration: none;
     padding: 10px 15px;
     display: block;
 }
 
 nav ul li a:hover {
-    background-color: whitesmoke;           /* Background on hover */
-    border-radius: 5px;               /* Optional rounded corners */
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
 
-/* Add margin to top content so it doesn’t hide behind navbar */
 body {
-    margin-top: 50px;                 /* Adjust based on navbar height */
+    margin-top: 50px;
 }
+
+/* Mobile styling */
+.menu-toggle {
+    display: none;                 /* Hidden by default */
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    color: black;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    .navbar {
+        display: none;             /* Hide navbar by default on mobile */
+        flex-direction: column;    /* Stack items vertically */
+        align-items: center;
+        background-color: #e2c027; /* Match navbar background color */
+        width: 100%;
+    }
+
+    .navbar.active {
+        display: flex;             /* Show navbar when active */
+    }
+
+    .menu-toggle {
+        display: block;            /* Show hamburger icon on mobile */
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    nav ul li {
+        margin: 10px 0;           /* Space between links */
+    }
+}
+
 
 footer {
     font-size: 0.8em;       /* Makes text smaller */

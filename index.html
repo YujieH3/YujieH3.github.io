@@ -15,7 +15,8 @@
     <div id="home"></div>
 
     <nav>
-        <ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Hamburger icon -->
+        <ul class="navbar">
             <li><a href="#home">Home</a></li>
             <li><a href="#research">Research</a></li>
             <li><a href="#about">About</a></li>
@@ -150,4 +151,10 @@
     const options = { year: 'numeric', month: 'short', day: '2-digit' };
     const formattedDate = date.toLocaleDateString('en-GB', options).replace(',', '');
     document.getElementById("last-update").textContent = formattedDate;
+    function toggleMenu() {
+    document.querySelector('.navbar').classList.toggle('active');
+    }
 </script>
+
+
+
