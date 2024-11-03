@@ -66,8 +66,7 @@ footer {
 }
 
 .profile-image {
-    width: 100%;             /* Set width as needed */
-    /* height: 100%;            Set height to keep it square */
+    width: 250px;             /* Set width as needed */
+    height: 250px;            /* Set height to keep it square */
     border-radius: 30%;       /* Makes the image circular */
-    object-fit: cover;        /* Ensures the image fills the circle */
 }
