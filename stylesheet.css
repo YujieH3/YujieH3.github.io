@@ -1,0 +1,69 @@
+/* Set the font for the entire page */
+body {
+    font-family: 'Georgia', serif; 
+}
+
+#top {
+    position: relative;
+    top: -60px;       /* Adjust to match the navbar height */
+    visibility: hidden; /* Hides the anchor from view */
+}
+
+:root {
+    scroll-padding-top: 60px; /* Adjust this value to match the height of your navbar */
+}
+
+/* Basic navbar styling */
+nav {
+    background-color: #e2c027;           /* Background color for navbar */
+    padding: 5px 0;
+    width: 100%;                      /* Full width across the page */
+    position: fixed;                  /* Fixed position makes it float */
+    top: 0;                           /* Aligns it to the top of the viewport */
+    z-index: 1000;                    /* Ensures it stays above other content */
+    font-family: 'Impact', sans-serif; /* Font for the navbar */
+}
+
+nav ul {
+    list-style-type: none;            /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;                    /* Align items horizontally */
+    justify-content: center;          /* Center-align the nav links */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;                     /* Link text color */
+    text-decoration: none;            /* Removes underline */
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #e0e0e0;           /* Background on hover */
+    border-radius: 5px;               /* Optional rounded corners */
+}
+
+/* Add margin to top content so it doesn’t hide behind navbar */
+body {
+    margin-top: 50px;                 /* Adjust based on navbar height */
+}
+
+footer {
+    font-size: 0.8em;       /* Makes text smaller */
+    color: #666;            /* Light grey text */
+    text-align: center;     /* Center-aligns the text */
+    margin-top: 20px;       /* Adds space above the footer */
+    padding: 10px 0;
+}
+
+.profile-image {
+    width: 100%;             /* Set width as needed */
+    height: 100%;            /* Set height to keep it square */
+    border-radius: 30%;       /* Makes the image circular */
+    object-fit: cover;        /* Ensures the image fills the circle */
+}
