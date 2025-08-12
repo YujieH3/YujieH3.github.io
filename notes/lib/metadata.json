@@ -1,0 +1,967 @@
+{
+  "vaultName": "Physical",
+  "lastExport": 1754990460903,
+  "pluginVersion": "1.9.2",
+  "validBodyClasses": "publish css-settings-manager show-inline-title show-ribbon theme-light",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "Astrophysics/Blackbody Radiation.md",
+    "Astrophysics/Eddington Limit.md",
+    "Astrophysics/Gravitation.md",
+    "Astrophysics/Hydrostatic Equilibrium.md",
+    "Astrophysics/Interstellar Medium.md",
+    "Astrophysics/Interstellar Turbulence.md",
+    "Astrophysics/Multiwavelengths Astronomy.md",
+    "Astrophysics/Pressure Integral.md",
+    "Astrophysics/Radiation.md",
+    "Astrophysics/Star Formation.md",
+    "Astrophysics/Stellar Model.md",
+    "Astrophysics/Virial Theorem.md",
+    "attachments/Kolmogorov-scaling-in-the-inertial-range.jpg",
+    "attachments/Pasted image 20220721000248.png",
+    "attachments/Pasted image 20230226193140.png",
+    "attachments/Pasted image 20230322163105.png",
+    "attachments/Pasted image 20231202234215.png",
+    "attachments/Pasted image 20240119102924.png",
+    "attachments/Screenshot from 2022-07-21 19-27-43.png",
+    "Black Hole and Gravitational Wave/Black Hole.md",
+    "Black Hole and Gravitational Wave/Black Hole Ringdown.md",
+    "Black Hole and Gravitational Wave/Gravitational Wave.md",
+    "Cosmology/Angle bracket notations in cosmology.md",
+    "Cosmology/Big Bang Nucleosynthesis.md",
+    "Cosmology/Cluster Cosmology.md",
+    "Cosmology/Cosmic Microwave Background.md",
+    "Cosmology/Cosmological Distances.md",
+    "Cosmology/Dark Matter.md",
+    "Cosmology/Energy Conservation in Cosmology.md",
+    "Cosmology/Friedmann Equations.md",
+    "Cosmology/Hubble Parameter.md",
+    "Electrodynamics/Coulomb's law.md",
+    "Electrodynamics/Maxwell's equations.md",
+    "General Relativity/Energy Momentum relation.md",
+    "General Relativity/Four Vectors.md",
+    "General Relativity/Lorentz Transformation.md",
+    "General Relativity/Theory of General Relativity.md",
+    "General Relativity/Vectors and Tensors.md",
+    "Math/attachments/3sigma.jpg",
+    "Math/Bayesian Theorem.md",
+    "Math/Calculus.md",
+    "Math/Campbell-Baker-Hausdorf formula.md",
+    "Math/Central limit theorem.md",
+    "Math/Coordinate Transformation.md",
+    "Math/Differential Equations for Physicists.md",
+    "Math/Differential Geometry.md",
+    "Math/Finite Element Method (FEM).md",
+    "Math/Gaussian distribution.md",
+    "Math/Gaussian integral.md",
+    "Math/Geometry.md",
+    "Math/Group Theory for Physicists.md",
+    "Math/Hilbert Space.md",
+    "Math/Inference.md",
+    "Math/Lie Theory.md",
+    "Math/Markov Chain Monte Carlo.md",
+    "Math/Matrices.md",
+    "Math/Multivariate Calculus.md",
+    "Math/Nearest Neighbor.md",
+    "Math/Plancherel theorem.md",
+    "Math/Rotations.md",
+    "Math/Statistics.md",
+    "Math/Vector Space.md",
+    "Quantum Mechanics/Anti-unitary operator.md",
+    "Quantum Mechanics/Berry phase.md",
+    "Quantum Mechanics/Bohr-Sommerfeld quantization.md",
+    "Quantum Mechanics/Conservation laws.md",
+    "Quantum Mechanics/Cross section.md",
+    "Quantum Mechanics/Dirac equation.md",
+    "Quantum Mechanics/Fermions and bosons.md",
+    "Quantum Mechanics/Feynman propagator.md",
+    "Quantum Mechanics/Field operators.md",
+    "Quantum Mechanics/Gauge transformation.md",
+    "Quantum Mechanics/Heisenberg picture.md",
+    "Quantum Mechanics/Hellmann-Feynman theorem.md",
+    "Quantum Mechanics/Hermitian operator.md",
+    "Quantum Mechanics/LSZ Reduction formula.md",
+    "Quantum Mechanics/Outline of quantum field theory.md",
+    "Quantum Mechanics/Path integral.md",
+    "Quantum Mechanics/Pieces in standard model.md",
+    "Quantum Mechanics/Position and momentum representation.md",
+    "Quantum Mechanics/Quantum adiabatic theorem.md",
+    "Quantum Mechanics/Schrödinger picture.md",
+    "Quantum Mechanics/Unitary transformation.md",
+    "Quantum Mechanics/Variational principle.md",
+    "Quantum Mechanics/Wave function and state vectors.md",
+    "Quantum Mechanics/Wigner's theorem.md",
+    "Quantum Mechanics/WKB approximation.md",
+    "Thermodynamics/Boltzmann & Saha Equation.md",
+    "Thermodynamics/Equipartition Theorem.md",
+    "Thermodynamics/Laws of Thermodynamics.md",
+    "Thermodynamics/Statistical Distributions.md",
+    "Thermodynamics/Thermodynamic Process.md",
+    "index.md",
+    "Stationary-action principle.md",
+    "Useful constants and units.md",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg",
+    "lib/fonts/MathJax_Zero.woff",
+    "lib/fonts/MathJax_Main-Regular.woff",
+    "lib/fonts/MathJax_Main-Bold.woff",
+    "lib/fonts/MathJax_Math-Italic.woff",
+    "lib/fonts/MathJax_Main-Italic.woff",
+    "lib/fonts/MathJax_Math-BoldItalic.woff",
+    "lib/fonts/MathJax_Size1-Regular.woff",
+    "lib/fonts/MathJax_Size2-Regular.woff",
+    "lib/fonts/MathJax_Size3-Regular.woff",
+    "lib/fonts/MathJax_Size4-Regular.woff",
+    "lib/fonts/MathJax_AMS-Regular.woff",
+    "lib/fonts/MathJax_Calligraphic-Regular.woff",
+    "lib/fonts/MathJax_Calligraphic-Bold.woff",
+    "lib/fonts/MathJax_Fraktur-Regular.woff",
+    "lib/fonts/MathJax_Fraktur-Bold.woff",
+    "lib/fonts/MathJax_SansSerif-Regular.woff",
+    "lib/fonts/MathJax_SansSerif-Bold.woff",
+    "lib/fonts/MathJax_SansSerif-Italic.woff",
+    "lib/fonts/MathJax_Script-Regular.woff",
+    "lib/fonts/MathJax_Typewriter-Regular.woff",
+    "lib/fonts/MathJax_Vector-Regular.woff",
+    "lib/fonts/MathJax_Vector-Bold.woff"
+  ],
+  "mainDependencies": [
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg",
+    "lib/fonts/MathJax_Zero.woff",
+    "lib/fonts/MathJax_Main-Regular.woff",
+    "lib/fonts/MathJax_Main-Bold.woff",
+    "lib/fonts/MathJax_Math-Italic.woff",
+    "lib/fonts/MathJax_Main-Italic.woff",
+    "lib/fonts/MathJax_Math-BoldItalic.woff",
+    "lib/fonts/MathJax_Size1-Regular.woff",
+    "lib/fonts/MathJax_Size2-Regular.woff",
+    "lib/fonts/MathJax_Size3-Regular.woff",
+    "lib/fonts/MathJax_Size4-Regular.woff",
+    "lib/fonts/MathJax_AMS-Regular.woff",
+    "lib/fonts/MathJax_Calligraphic-Regular.woff",
+    "lib/fonts/MathJax_Calligraphic-Bold.woff",
+    "lib/fonts/MathJax_Fraktur-Regular.woff",
+    "lib/fonts/MathJax_Fraktur-Bold.woff",
+    "lib/fonts/MathJax_SansSerif-Regular.woff",
+    "lib/fonts/MathJax_SansSerif-Bold.woff",
+    "lib/fonts/MathJax_SansSerif-Italic.woff",
+    "lib/fonts/MathJax_Script-Regular.woff",
+    "lib/fonts/MathJax_Typewriter-Regular.woff",
+    "lib/fonts/MathJax_Vector-Regular.woff",
+    "lib/fonts/MathJax_Vector-Bold.woff"
+  ],
+  "fileInfo": {
+    "Astrophysics/Blackbody Radiation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 3781,
+      "exportedPath": "Astrophysics/Blackbody Radiation.html",
+      "dependencies": []
+    },
+    "Astrophysics/Eddington Limit.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1032,
+      "exportedPath": "Astrophysics/Eddington Limit.html",
+      "dependencies": []
+    },
+    "Astrophysics/Gravitation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1850,
+      "exportedPath": "Astrophysics/Gravitation.html",
+      "dependencies": []
+    },
+    "Astrophysics/Hydrostatic Equilibrium.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1623,
+      "exportedPath": "Astrophysics/Hydrostatic Equilibrium.html",
+      "dependencies": []
+    },
+    "Astrophysics/Interstellar Medium.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 739,
+      "exportedPath": "Astrophysics/Interstellar Medium.html",
+      "dependencies": []
+    },
+    "Astrophysics/Interstellar Turbulence.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 2499,
+      "exportedPath": "Astrophysics/Interstellar Turbulence.html",
+      "dependencies": []
+    },
+    "Astrophysics/Multiwavelengths Astronomy.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1548,
+      "exportedPath": "Astrophysics/Multiwavelengths Astronomy.html",
+      "dependencies": []
+    },
+    "Astrophysics/Pressure Integral.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 2086,
+      "exportedPath": "Astrophysics/Pressure Integral.html",
+      "dependencies": []
+    },
+    "Astrophysics/Radiation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 2998,
+      "exportedPath": "Astrophysics/Radiation.html",
+      "dependencies": []
+    },
+    "Astrophysics/Star Formation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 3593,
+      "exportedPath": "Astrophysics/Star Formation.html",
+      "dependencies": []
+    },
+    "Astrophysics/Stellar Model.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 718,
+      "exportedPath": "Astrophysics/Stellar Model.html",
+      "dependencies": []
+    },
+    "Astrophysics/Virial Theorem.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1595,
+      "exportedPath": "Astrophysics/Virial Theorem.html",
+      "dependencies": []
+    },
+    "attachments/Kolmogorov-scaling-in-the-inertial-range.jpg": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 23843,
+      "exportedPath": "attachments/Kolmogorov-scaling-in-the-inertial-range.jpg",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20220721000248.png": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 347985,
+      "exportedPath": "attachments/Pasted image 20220721000248.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20230226193140.png": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 33438,
+      "exportedPath": "attachments/Pasted image 20230226193140.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20230322163105.png": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 41829,
+      "exportedPath": "attachments/Pasted image 20230322163105.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20231202234215.png": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 25462,
+      "exportedPath": "attachments/Pasted image 20231202234215.png",
+      "dependencies": []
+    },
+    "attachments/Pasted image 20240119102924.png": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 90411,
+      "exportedPath": "attachments/Pasted image 20240119102924.png",
+      "dependencies": []
+    },
+    "attachments/Screenshot from 2022-07-21 19-27-43.png": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 95684,
+      "exportedPath": "attachments/Screenshot from 2022-07-21 19-27-43.png",
+      "dependencies": []
+    },
+    "Black Hole and Gravitational Wave/Black Hole.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1749,
+      "exportedPath": "Black Hole and Gravitational Wave/Black Hole.html",
+      "dependencies": []
+    },
+    "Black Hole and Gravitational Wave/Black Hole Ringdown.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 3435,
+      "exportedPath": "Black Hole and Gravitational Wave/Black Hole Ringdown.html",
+      "dependencies": []
+    },
+    "Black Hole and Gravitational Wave/Gravitational Wave.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1083,
+      "exportedPath": "Black Hole and Gravitational Wave/Gravitational Wave.html",
+      "dependencies": []
+    },
+    "Cosmology/Angle bracket notations in cosmology.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 625,
+      "exportedPath": "Cosmology/Angle bracket notations in cosmology.html",
+      "dependencies": []
+    },
+    "Cosmology/Big Bang Nucleosynthesis.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 864,
+      "exportedPath": "Cosmology/Big Bang Nucleosynthesis.html",
+      "dependencies": []
+    },
+    "Cosmology/Cluster Cosmology.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 3889,
+      "exportedPath": "Cosmology/Cluster Cosmology.html",
+      "dependencies": []
+    },
+    "Cosmology/Cosmic Microwave Background.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 206,
+      "exportedPath": "Cosmology/Cosmic Microwave Background.html",
+      "dependencies": []
+    },
+    "Cosmology/Cosmological Distances.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1177,
+      "exportedPath": "Cosmology/Cosmological Distances.html",
+      "dependencies": []
+    },
+    "Cosmology/Dark Matter.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 579,
+      "exportedPath": "Cosmology/Dark Matter.html",
+      "dependencies": []
+    },
+    "Cosmology/Energy Conservation in Cosmology.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1419,
+      "exportedPath": "Cosmology/Energy Conservation in Cosmology.html",
+      "dependencies": []
+    },
+    "Cosmology/Friedmann Equations.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 7858,
+      "exportedPath": "Cosmology/Friedmann Equations.html",
+      "dependencies": []
+    },
+    "Cosmology/Hubble Parameter.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 798,
+      "exportedPath": "Cosmology/Hubble Parameter.html",
+      "dependencies": []
+    },
+    "Electrodynamics/Coulomb's law.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 531,
+      "exportedPath": "Electrodynamics/Coulomb's law.html",
+      "dependencies": []
+    },
+    "Electrodynamics/Maxwell's equations.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 2217,
+      "exportedPath": "Electrodynamics/Maxwell's equations.html",
+      "dependencies": []
+    },
+    "General Relativity/Energy Momentum relation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 632,
+      "exportedPath": "General Relativity/Energy Momentum relation.html",
+      "dependencies": []
+    },
+    "General Relativity/Four Vectors.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 625,
+      "exportedPath": "General Relativity/Four Vectors.html",
+      "dependencies": []
+    },
+    "General Relativity/Lorentz Transformation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 2821,
+      "exportedPath": "General Relativity/Lorentz Transformation.html",
+      "dependencies": []
+    },
+    "General Relativity/Theory of General Relativity.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1108,
+      "exportedPath": "General Relativity/Theory of General Relativity.html",
+      "dependencies": []
+    },
+    "General Relativity/Vectors and Tensors.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1929,
+      "exportedPath": "General Relativity/Vectors and Tensors.html",
+      "dependencies": []
+    },
+    "Math/attachments/3sigma.jpg": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 26764,
+      "exportedPath": "Math/attachments/3sigma.jpg",
+      "dependencies": []
+    },
+    "Math/Bayesian Theorem.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1204,
+      "exportedPath": "Math/Bayesian Theorem.html",
+      "dependencies": []
+    },
+    "Math/Calculus.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 4572,
+      "exportedPath": "Math/Calculus.html",
+      "dependencies": []
+    },
+    "Math/Campbell-Baker-Hausdorf formula.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 693,
+      "exportedPath": "Math/Campbell-Baker-Hausdorf formula.html",
+      "dependencies": []
+    },
+    "Math/Central limit theorem.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 190,
+      "exportedPath": "Math/Central limit theorem.html",
+      "dependencies": []
+    },
+    "Math/Coordinate Transformation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1507,
+      "exportedPath": "Math/Coordinate Transformation.html",
+      "dependencies": []
+    },
+    "Math/Differential Equations for Physicists.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 211,
+      "exportedPath": "Math/Differential Equations for Physicists.html",
+      "dependencies": []
+    },
+    "Math/Differential Geometry.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 7987,
+      "exportedPath": "Math/Differential Geometry.html",
+      "dependencies": []
+    },
+    "Math/Finite Element Method (FEM).md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 3483,
+      "exportedPath": "Math/Finite Element Method (FEM).html",
+      "dependencies": []
+    },
+    "Math/Gaussian distribution.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 887,
+      "exportedPath": "Math/Gaussian distribution.html",
+      "dependencies": []
+    },
+    "Math/Gaussian integral.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1381,
+      "exportedPath": "Math/Gaussian integral.html",
+      "dependencies": []
+    },
+    "Math/Geometry.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 802,
+      "exportedPath": "Math/Geometry.html",
+      "dependencies": []
+    },
+    "Math/Group Theory for Physicists.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 628,
+      "exportedPath": "Math/Group Theory for Physicists.html",
+      "dependencies": []
+    },
+    "Math/Hilbert Space.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1808,
+      "exportedPath": "Math/Hilbert Space.html",
+      "dependencies": []
+    },
+    "Math/Inference.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 2295,
+      "exportedPath": "Math/Inference.html",
+      "dependencies": []
+    },
+    "Math/Lie Theory.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1167,
+      "exportedPath": "Math/Lie Theory.html",
+      "dependencies": []
+    },
+    "Math/Markov Chain Monte Carlo.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 3652,
+      "exportedPath": "Math/Markov Chain Monte Carlo.html",
+      "dependencies": []
+    },
+    "Math/Matrices.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1827,
+      "exportedPath": "Math/Matrices.html",
+      "dependencies": []
+    },
+    "Math/Multivariate Calculus.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1020,
+      "exportedPath": "Math/Multivariate Calculus.html",
+      "dependencies": []
+    },
+    "Math/Nearest Neighbor.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 2962,
+      "exportedPath": "Math/Nearest Neighbor.html",
+      "dependencies": []
+    },
+    "Math/Plancherel theorem.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1879,
+      "exportedPath": "Math/Plancherel theorem.html",
+      "dependencies": []
+    },
+    "Math/Rotations.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1855,
+      "exportedPath": "Math/Rotations.html",
+      "dependencies": []
+    },
+    "Math/Statistics.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 2009,
+      "exportedPath": "Math/Statistics.html",
+      "dependencies": []
+    },
+    "Math/Vector Space.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 4280,
+      "exportedPath": "Math/Vector Space.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Anti-unitary operator.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 178,
+      "exportedPath": "Quantum Mechanics/Anti-unitary operator.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Berry phase.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 653,
+      "exportedPath": "Quantum Mechanics/Berry phase.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Bohr-Sommerfeld quantization.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 524,
+      "exportedPath": "Quantum Mechanics/Bohr-Sommerfeld quantization.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Conservation laws.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 413,
+      "exportedPath": "Quantum Mechanics/Conservation laws.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Cross section.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 766,
+      "exportedPath": "Quantum Mechanics/Cross section.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Dirac equation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1725,
+      "exportedPath": "Quantum Mechanics/Dirac equation.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Fermions and bosons.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 952,
+      "exportedPath": "Quantum Mechanics/Fermions and bosons.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Feynman propagator.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 916,
+      "exportedPath": "Quantum Mechanics/Feynman propagator.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Field operators.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 396,
+      "exportedPath": "Quantum Mechanics/Field operators.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Gauge transformation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 630,
+      "exportedPath": "Quantum Mechanics/Gauge transformation.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Heisenberg picture.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1389,
+      "exportedPath": "Quantum Mechanics/Heisenberg picture.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Hellmann-Feynman theorem.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 227,
+      "exportedPath": "Quantum Mechanics/Hellmann-Feynman theorem.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Hermitian operator.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 390,
+      "exportedPath": "Quantum Mechanics/Hermitian operator.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/LSZ Reduction formula.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 701,
+      "exportedPath": "Quantum Mechanics/LSZ Reduction formula.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Outline of quantum field theory.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 4322,
+      "exportedPath": "Quantum Mechanics/Outline of quantum field theory.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Path integral.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 4550,
+      "exportedPath": "Quantum Mechanics/Path integral.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Pieces in standard model.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 877,
+      "exportedPath": "Quantum Mechanics/Pieces in standard model.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Position and momentum representation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 382,
+      "exportedPath": "Quantum Mechanics/Position and momentum representation.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Quantum adiabatic theorem.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 679,
+      "exportedPath": "Quantum Mechanics/Quantum adiabatic theorem.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Schrödinger picture.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 552,
+      "exportedPath": "Quantum Mechanics/Schrödinger picture.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Unitary transformation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 821,
+      "exportedPath": "Quantum Mechanics/Unitary transformation.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Variational principle.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 324,
+      "exportedPath": "Quantum Mechanics/Variational principle.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Wave function and state vectors.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1121,
+      "exportedPath": "Quantum Mechanics/Wave function and state vectors.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/Wigner's theorem.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 151,
+      "exportedPath": "Quantum Mechanics/Wigner's theorem.html",
+      "dependencies": []
+    },
+    "Quantum Mechanics/WKB approximation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 777,
+      "exportedPath": "Quantum Mechanics/WKB approximation.html",
+      "dependencies": []
+    },
+    "Thermodynamics/Boltzmann & Saha Equation.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 742,
+      "exportedPath": "Thermodynamics/Boltzmann & Saha Equation.html",
+      "dependencies": []
+    },
+    "Thermodynamics/Equipartition Theorem.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1725,
+      "exportedPath": "Thermodynamics/Equipartition Theorem.html",
+      "dependencies": []
+    },
+    "Thermodynamics/Laws of Thermodynamics.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 657,
+      "exportedPath": "Thermodynamics/Laws of Thermodynamics.html",
+      "dependencies": []
+    },
+    "Thermodynamics/Statistical Distributions.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1149,
+      "exportedPath": "Thermodynamics/Statistical Distributions.html",
+      "dependencies": []
+    },
+    "Thermodynamics/Thermodynamic Process.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 2350,
+      "exportedPath": "Thermodynamics/Thermodynamic Process.html",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 713,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "Stationary-action principle.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 804,
+      "exportedPath": "Stationary-action principle.html",
+      "dependencies": []
+    },
+    "Useful constants and units.md": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1539,
+      "exportedPath": "Useful constants and units.html",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 315,
+      "exportedPath": "lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Zero.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1368,
+      "exportedPath": "lib/fonts/MathJax_Zero.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Main-Regular.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 34160,
+      "exportedPath": "lib/fonts/MathJax_Main-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Main-Bold.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 34464,
+      "exportedPath": "lib/fonts/MathJax_Main-Bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Math-Italic.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 19360,
+      "exportedPath": "lib/fonts/MathJax_Math-Italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Main-Italic.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 20832,
+      "exportedPath": "lib/fonts/MathJax_Main-Italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Math-BoldItalic.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 19776,
+      "exportedPath": "lib/fonts/MathJax_Math-BoldItalic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Size1-Regular.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 5792,
+      "exportedPath": "lib/fonts/MathJax_Size1-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Size2-Regular.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 5464,
+      "exportedPath": "lib/fonts/MathJax_Size2-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Size3-Regular.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 3244,
+      "exportedPath": "lib/fonts/MathJax_Size3-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Size4-Regular.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 5148,
+      "exportedPath": "lib/fonts/MathJax_Size4-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_AMS-Regular.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 40808,
+      "exportedPath": "lib/fonts/MathJax_AMS-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Calligraphic-Regular.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 9600,
+      "exportedPath": "lib/fonts/MathJax_Calligraphic-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Calligraphic-Bold.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 9908,
+      "exportedPath": "lib/fonts/MathJax_Calligraphic-Bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Fraktur-Regular.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 21480,
+      "exportedPath": "lib/fonts/MathJax_Fraktur-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Fraktur-Bold.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 22340,
+      "exportedPath": "lib/fonts/MathJax_Fraktur-Bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_SansSerif-Regular.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 12660,
+      "exportedPath": "lib/fonts/MathJax_SansSerif-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_SansSerif-Bold.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 15944,
+      "exportedPath": "lib/fonts/MathJax_SansSerif-Bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_SansSerif-Italic.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 14628,
+      "exportedPath": "lib/fonts/MathJax_SansSerif-Italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Script-Regular.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 11852,
+      "exportedPath": "lib/fonts/MathJax_Script-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Typewriter-Regular.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 17604,
+      "exportedPath": "lib/fonts/MathJax_Typewriter-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Vector-Regular.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1136,
+      "exportedPath": "lib/fonts/MathJax_Vector-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Vector-Bold.woff": {
+      "modifiedTime": 1754990460903,
+      "sourceSize": 1116,
+      "exportedPath": "lib/fonts/MathJax_Vector-Bold.woff",
+      "dependencies": []
+    }
+  }
+}
