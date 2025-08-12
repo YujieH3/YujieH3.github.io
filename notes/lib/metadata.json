@@ -1,6 +1,6 @@
 {
   "vaultName": "Physical",
-  "lastExport": 1754990460903,
+  "lastExport": 1754994655428,
   "pluginVersion": "1.9.2",
   "validBodyClasses": "publish css-settings-manager show-inline-title show-ribbon theme-light",
   "useCustomHeadContent": false,
@@ -101,6 +101,13 @@
     "index.md",
     "Stationary-action principle.md",
     "Useful constants and units.md",
+    "lib/media/kolmogorov-scaling-in-the-inertial-range.jpg",
+    "lib/media/pasted-image-20220721000248.png",
+    "lib/media/pasted-image-20230226193140.png",
+    "lib/media/pasted-image-20230322163105.png",
+    "lib/media/pasted-image-20240119102924.png",
+    "lib/media/pasted-image-20231202234215.png",
+    "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -115,30 +122,45 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/6155340132a851f6089e.svg",
-    "lib/fonts/MathJax_Zero.woff",
-    "lib/fonts/MathJax_Main-Regular.woff",
-    "lib/fonts/MathJax_Main-Bold.woff",
-    "lib/fonts/MathJax_Math-Italic.woff",
-    "lib/fonts/MathJax_Main-Italic.woff",
-    "lib/fonts/MathJax_Math-BoldItalic.woff",
-    "lib/fonts/MathJax_Size1-Regular.woff",
-    "lib/fonts/MathJax_Size2-Regular.woff",
-    "lib/fonts/MathJax_Size3-Regular.woff",
-    "lib/fonts/MathJax_Size4-Regular.woff",
-    "lib/fonts/MathJax_AMS-Regular.woff",
-    "lib/fonts/MathJax_Calligraphic-Regular.woff",
-    "lib/fonts/MathJax_Calligraphic-Bold.woff",
-    "lib/fonts/MathJax_Fraktur-Regular.woff",
-    "lib/fonts/MathJax_Fraktur-Bold.woff",
-    "lib/fonts/MathJax_SansSerif-Regular.woff",
-    "lib/fonts/MathJax_SansSerif-Bold.woff",
-    "lib/fonts/MathJax_SansSerif-Italic.woff",
-    "lib/fonts/MathJax_Script-Regular.woff",
-    "lib/fonts/MathJax_Typewriter-Regular.woff",
-    "lib/fonts/MathJax_Vector-Regular.woff",
-    "lib/fonts/MathJax_Vector-Bold.woff"
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css",
+    "lib/styles/snippets.css"
   ],
   "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -153,814 +175,981 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/6155340132a851f6089e.svg",
-    "lib/fonts/MathJax_Zero.woff",
-    "lib/fonts/MathJax_Main-Regular.woff",
-    "lib/fonts/MathJax_Main-Bold.woff",
-    "lib/fonts/MathJax_Math-Italic.woff",
-    "lib/fonts/MathJax_Main-Italic.woff",
-    "lib/fonts/MathJax_Math-BoldItalic.woff",
-    "lib/fonts/MathJax_Size1-Regular.woff",
-    "lib/fonts/MathJax_Size2-Regular.woff",
-    "lib/fonts/MathJax_Size3-Regular.woff",
-    "lib/fonts/MathJax_Size4-Regular.woff",
-    "lib/fonts/MathJax_AMS-Regular.woff",
-    "lib/fonts/MathJax_Calligraphic-Regular.woff",
-    "lib/fonts/MathJax_Calligraphic-Bold.woff",
-    "lib/fonts/MathJax_Fraktur-Regular.woff",
-    "lib/fonts/MathJax_Fraktur-Bold.woff",
-    "lib/fonts/MathJax_SansSerif-Regular.woff",
-    "lib/fonts/MathJax_SansSerif-Bold.woff",
-    "lib/fonts/MathJax_SansSerif-Italic.woff",
-    "lib/fonts/MathJax_Script-Regular.woff",
-    "lib/fonts/MathJax_Typewriter-Regular.woff",
-    "lib/fonts/MathJax_Vector-Regular.woff",
-    "lib/fonts/MathJax_Vector-Bold.woff"
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css",
+    "lib/styles/snippets.css"
   ],
   "fileInfo": {
     "Astrophysics/Blackbody Radiation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 3781,
-      "exportedPath": "Astrophysics/Blackbody Radiation.html",
+      "exportedPath": "astrophysics/blackbody-radiation.html",
       "dependencies": []
     },
     "Astrophysics/Eddington Limit.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1032,
-      "exportedPath": "Astrophysics/Eddington Limit.html",
+      "exportedPath": "astrophysics/eddington-limit.html",
       "dependencies": []
     },
     "Astrophysics/Gravitation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1850,
-      "exportedPath": "Astrophysics/Gravitation.html",
+      "exportedPath": "astrophysics/gravitation.html",
       "dependencies": []
     },
     "Astrophysics/Hydrostatic Equilibrium.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1623,
-      "exportedPath": "Astrophysics/Hydrostatic Equilibrium.html",
+      "exportedPath": "astrophysics/hydrostatic-equilibrium.html",
       "dependencies": []
     },
     "Astrophysics/Interstellar Medium.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 739,
-      "exportedPath": "Astrophysics/Interstellar Medium.html",
+      "exportedPath": "astrophysics/interstellar-medium.html",
       "dependencies": []
     },
     "Astrophysics/Interstellar Turbulence.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 2499,
-      "exportedPath": "Astrophysics/Interstellar Turbulence.html",
-      "dependencies": []
+      "exportedPath": "astrophysics/interstellar-turbulence.html",
+      "dependencies": [
+        "lib/media/kolmogorov-scaling-in-the-inertial-range.jpg"
+      ]
     },
     "Astrophysics/Multiwavelengths Astronomy.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1548,
-      "exportedPath": "Astrophysics/Multiwavelengths Astronomy.html",
-      "dependencies": []
+      "exportedPath": "astrophysics/multiwavelengths-astronomy.html",
+      "dependencies": [
+        "lib/media/pasted-image-20220721000248.png"
+      ]
     },
     "Astrophysics/Pressure Integral.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 2086,
-      "exportedPath": "Astrophysics/Pressure Integral.html",
+      "exportedPath": "astrophysics/pressure-integral.html",
       "dependencies": []
     },
     "Astrophysics/Radiation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 2998,
-      "exportedPath": "Astrophysics/Radiation.html",
+      "exportedPath": "astrophysics/radiation.html",
       "dependencies": []
     },
     "Astrophysics/Star Formation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 3593,
-      "exportedPath": "Astrophysics/Star Formation.html",
+      "exportedPath": "astrophysics/star-formation.html",
       "dependencies": []
     },
     "Astrophysics/Stellar Model.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 718,
-      "exportedPath": "Astrophysics/Stellar Model.html",
+      "exportedPath": "astrophysics/stellar-model.html",
       "dependencies": []
     },
     "Astrophysics/Virial Theorem.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1595,
-      "exportedPath": "Astrophysics/Virial Theorem.html",
+      "exportedPath": "astrophysics/virial-theorem.html",
       "dependencies": []
     },
     "attachments/Kolmogorov-scaling-in-the-inertial-range.jpg": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 23843,
-      "exportedPath": "attachments/Kolmogorov-scaling-in-the-inertial-range.jpg",
+      "exportedPath": "attachments/kolmogorov-scaling-in-the-inertial-range.jpg",
       "dependencies": []
     },
     "attachments/Pasted image 20220721000248.png": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 347985,
-      "exportedPath": "attachments/Pasted image 20220721000248.png",
+      "exportedPath": "attachments/pasted-image-20220721000248.png",
       "dependencies": []
     },
     "attachments/Pasted image 20230226193140.png": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 33438,
-      "exportedPath": "attachments/Pasted image 20230226193140.png",
+      "exportedPath": "attachments/pasted-image-20230226193140.png",
       "dependencies": []
     },
     "attachments/Pasted image 20230322163105.png": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 41829,
-      "exportedPath": "attachments/Pasted image 20230322163105.png",
+      "exportedPath": "attachments/pasted-image-20230322163105.png",
       "dependencies": []
     },
     "attachments/Pasted image 20231202234215.png": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 25462,
-      "exportedPath": "attachments/Pasted image 20231202234215.png",
+      "exportedPath": "attachments/pasted-image-20231202234215.png",
       "dependencies": []
     },
     "attachments/Pasted image 20240119102924.png": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 90411,
-      "exportedPath": "attachments/Pasted image 20240119102924.png",
+      "exportedPath": "attachments/pasted-image-20240119102924.png",
       "dependencies": []
     },
     "attachments/Screenshot from 2022-07-21 19-27-43.png": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 95684,
-      "exportedPath": "attachments/Screenshot from 2022-07-21 19-27-43.png",
+      "exportedPath": "attachments/screenshot-from-2022-07-21-19-27-43.png",
       "dependencies": []
     },
     "Black Hole and Gravitational Wave/Black Hole.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1749,
-      "exportedPath": "Black Hole and Gravitational Wave/Black Hole.html",
+      "exportedPath": "black-hole-and-gravitational-wave/black-hole.html",
       "dependencies": []
     },
     "Black Hole and Gravitational Wave/Black Hole Ringdown.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 3435,
-      "exportedPath": "Black Hole and Gravitational Wave/Black Hole Ringdown.html",
+      "exportedPath": "black-hole-and-gravitational-wave/black-hole-ringdown.html",
       "dependencies": []
     },
     "Black Hole and Gravitational Wave/Gravitational Wave.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1083,
-      "exportedPath": "Black Hole and Gravitational Wave/Gravitational Wave.html",
-      "dependencies": []
+      "exportedPath": "black-hole-and-gravitational-wave/gravitational-wave.html",
+      "dependencies": [
+        "lib/media/pasted-image-20230226193140.png",
+        "lib/media/pasted-image-20230322163105.png"
+      ]
     },
     "Cosmology/Angle bracket notations in cosmology.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 625,
-      "exportedPath": "Cosmology/Angle bracket notations in cosmology.html",
+      "exportedPath": "cosmology/angle-bracket-notations-in-cosmology.html",
       "dependencies": []
     },
     "Cosmology/Big Bang Nucleosynthesis.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 864,
-      "exportedPath": "Cosmology/Big Bang Nucleosynthesis.html",
+      "exportedPath": "cosmology/big-bang-nucleosynthesis.html",
       "dependencies": []
     },
     "Cosmology/Cluster Cosmology.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 3889,
-      "exportedPath": "Cosmology/Cluster Cosmology.html",
-      "dependencies": []
+      "exportedPath": "cosmology/cluster-cosmology.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240119102924.png"
+      ]
     },
     "Cosmology/Cosmic Microwave Background.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 206,
-      "exportedPath": "Cosmology/Cosmic Microwave Background.html",
-      "dependencies": []
+      "exportedPath": "cosmology/cosmic-microwave-background.html",
+      "dependencies": [
+        "lib/media/pasted-image-20231202234215.png"
+      ]
     },
     "Cosmology/Cosmological Distances.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1177,
-      "exportedPath": "Cosmology/Cosmological Distances.html",
+      "exportedPath": "cosmology/cosmological-distances.html",
       "dependencies": []
     },
     "Cosmology/Dark Matter.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 579,
-      "exportedPath": "Cosmology/Dark Matter.html",
+      "exportedPath": "cosmology/dark-matter.html",
       "dependencies": []
     },
     "Cosmology/Energy Conservation in Cosmology.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1419,
-      "exportedPath": "Cosmology/Energy Conservation in Cosmology.html",
+      "exportedPath": "cosmology/energy-conservation-in-cosmology.html",
       "dependencies": []
     },
     "Cosmology/Friedmann Equations.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 7858,
-      "exportedPath": "Cosmology/Friedmann Equations.html",
+      "exportedPath": "cosmology/friedmann-equations.html",
       "dependencies": []
     },
     "Cosmology/Hubble Parameter.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 798,
-      "exportedPath": "Cosmology/Hubble Parameter.html",
+      "exportedPath": "cosmology/hubble-parameter.html",
       "dependencies": []
     },
     "Electrodynamics/Coulomb's law.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 531,
-      "exportedPath": "Electrodynamics/Coulomb's law.html",
+      "exportedPath": "electrodynamics/coulomb's-law.html",
       "dependencies": []
     },
     "Electrodynamics/Maxwell's equations.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 2217,
-      "exportedPath": "Electrodynamics/Maxwell's equations.html",
+      "exportedPath": "electrodynamics/maxwell's-equations.html",
       "dependencies": []
     },
     "General Relativity/Energy Momentum relation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 632,
-      "exportedPath": "General Relativity/Energy Momentum relation.html",
+      "exportedPath": "general-relativity/energy-momentum-relation.html",
       "dependencies": []
     },
     "General Relativity/Four Vectors.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 625,
-      "exportedPath": "General Relativity/Four Vectors.html",
+      "exportedPath": "general-relativity/four-vectors.html",
       "dependencies": []
     },
     "General Relativity/Lorentz Transformation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 2821,
-      "exportedPath": "General Relativity/Lorentz Transformation.html",
+      "exportedPath": "general-relativity/lorentz-transformation.html",
       "dependencies": []
     },
     "General Relativity/Theory of General Relativity.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1108,
-      "exportedPath": "General Relativity/Theory of General Relativity.html",
+      "exportedPath": "general-relativity/theory-of-general-relativity.html",
       "dependencies": []
     },
     "General Relativity/Vectors and Tensors.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1929,
-      "exportedPath": "General Relativity/Vectors and Tensors.html",
+      "exportedPath": "general-relativity/vectors-and-tensors.html",
       "dependencies": []
     },
     "Math/attachments/3sigma.jpg": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 26764,
-      "exportedPath": "Math/attachments/3sigma.jpg",
+      "exportedPath": "math/attachments/3sigma.jpg",
       "dependencies": []
     },
     "Math/Bayesian Theorem.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1204,
-      "exportedPath": "Math/Bayesian Theorem.html",
+      "exportedPath": "math/bayesian-theorem.html",
       "dependencies": []
     },
     "Math/Calculus.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 4572,
-      "exportedPath": "Math/Calculus.html",
+      "exportedPath": "math/calculus.html",
       "dependencies": []
     },
     "Math/Campbell-Baker-Hausdorf formula.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 693,
-      "exportedPath": "Math/Campbell-Baker-Hausdorf formula.html",
+      "exportedPath": "math/campbell-baker-hausdorf-formula.html",
       "dependencies": []
     },
     "Math/Central limit theorem.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 190,
-      "exportedPath": "Math/Central limit theorem.html",
+      "exportedPath": "math/central-limit-theorem.html",
       "dependencies": []
     },
     "Math/Coordinate Transformation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1507,
-      "exportedPath": "Math/Coordinate Transformation.html",
+      "exportedPath": "math/coordinate-transformation.html",
       "dependencies": []
     },
     "Math/Differential Equations for Physicists.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 211,
-      "exportedPath": "Math/Differential Equations for Physicists.html",
+      "exportedPath": "math/differential-equations-for-physicists.html",
       "dependencies": []
     },
     "Math/Differential Geometry.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 7987,
-      "exportedPath": "Math/Differential Geometry.html",
+      "exportedPath": "math/differential-geometry.html",
       "dependencies": []
     },
     "Math/Finite Element Method (FEM).md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 3483,
-      "exportedPath": "Math/Finite Element Method (FEM).html",
+      "exportedPath": "math/finite-element-method-(fem).html",
       "dependencies": []
     },
     "Math/Gaussian distribution.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 887,
-      "exportedPath": "Math/Gaussian distribution.html",
-      "dependencies": []
+      "exportedPath": "math/gaussian-distribution.html",
+      "dependencies": [
+        "math/attachments/3sigma.jpg"
+      ]
     },
     "Math/Gaussian integral.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1381,
-      "exportedPath": "Math/Gaussian integral.html",
+      "exportedPath": "math/gaussian-integral.html",
       "dependencies": []
     },
     "Math/Geometry.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 802,
-      "exportedPath": "Math/Geometry.html",
+      "exportedPath": "math/geometry.html",
       "dependencies": []
     },
     "Math/Group Theory for Physicists.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 628,
-      "exportedPath": "Math/Group Theory for Physicists.html",
+      "exportedPath": "math/group-theory-for-physicists.html",
       "dependencies": []
     },
     "Math/Hilbert Space.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1808,
-      "exportedPath": "Math/Hilbert Space.html",
+      "exportedPath": "math/hilbert-space.html",
       "dependencies": []
     },
     "Math/Inference.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 2295,
-      "exportedPath": "Math/Inference.html",
+      "exportedPath": "math/inference.html",
       "dependencies": []
     },
     "Math/Lie Theory.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1167,
-      "exportedPath": "Math/Lie Theory.html",
+      "exportedPath": "math/lie-theory.html",
       "dependencies": []
     },
     "Math/Markov Chain Monte Carlo.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 3652,
-      "exportedPath": "Math/Markov Chain Monte Carlo.html",
+      "exportedPath": "math/markov-chain-monte-carlo.html",
       "dependencies": []
     },
     "Math/Matrices.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1827,
-      "exportedPath": "Math/Matrices.html",
+      "exportedPath": "math/matrices.html",
       "dependencies": []
     },
     "Math/Multivariate Calculus.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1020,
-      "exportedPath": "Math/Multivariate Calculus.html",
+      "exportedPath": "math/multivariate-calculus.html",
       "dependencies": []
     },
     "Math/Nearest Neighbor.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 2962,
-      "exportedPath": "Math/Nearest Neighbor.html",
+      "exportedPath": "math/nearest-neighbor.html",
       "dependencies": []
     },
     "Math/Plancherel theorem.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1879,
-      "exportedPath": "Math/Plancherel theorem.html",
+      "exportedPath": "math/plancherel-theorem.html",
       "dependencies": []
     },
     "Math/Rotations.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1855,
-      "exportedPath": "Math/Rotations.html",
+      "exportedPath": "math/rotations.html",
       "dependencies": []
     },
     "Math/Statistics.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 2009,
-      "exportedPath": "Math/Statistics.html",
+      "exportedPath": "math/statistics.html",
       "dependencies": []
     },
     "Math/Vector Space.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 4280,
-      "exportedPath": "Math/Vector Space.html",
+      "exportedPath": "math/vector-space.html",
       "dependencies": []
     },
     "Quantum Mechanics/Anti-unitary operator.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 178,
-      "exportedPath": "Quantum Mechanics/Anti-unitary operator.html",
+      "exportedPath": "quantum-mechanics/anti-unitary-operator.html",
       "dependencies": []
     },
     "Quantum Mechanics/Berry phase.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 653,
-      "exportedPath": "Quantum Mechanics/Berry phase.html",
+      "exportedPath": "quantum-mechanics/berry-phase.html",
       "dependencies": []
     },
     "Quantum Mechanics/Bohr-Sommerfeld quantization.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 524,
-      "exportedPath": "Quantum Mechanics/Bohr-Sommerfeld quantization.html",
+      "exportedPath": "quantum-mechanics/bohr-sommerfeld-quantization.html",
       "dependencies": []
     },
     "Quantum Mechanics/Conservation laws.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 413,
-      "exportedPath": "Quantum Mechanics/Conservation laws.html",
+      "exportedPath": "quantum-mechanics/conservation-laws.html",
       "dependencies": []
     },
     "Quantum Mechanics/Cross section.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 766,
-      "exportedPath": "Quantum Mechanics/Cross section.html",
+      "exportedPath": "quantum-mechanics/cross-section.html",
       "dependencies": []
     },
     "Quantum Mechanics/Dirac equation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1725,
-      "exportedPath": "Quantum Mechanics/Dirac equation.html",
+      "exportedPath": "quantum-mechanics/dirac-equation.html",
       "dependencies": []
     },
     "Quantum Mechanics/Fermions and bosons.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 952,
-      "exportedPath": "Quantum Mechanics/Fermions and bosons.html",
+      "exportedPath": "quantum-mechanics/fermions-and-bosons.html",
       "dependencies": []
     },
     "Quantum Mechanics/Feynman propagator.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 916,
-      "exportedPath": "Quantum Mechanics/Feynman propagator.html",
+      "exportedPath": "quantum-mechanics/feynman-propagator.html",
       "dependencies": []
     },
     "Quantum Mechanics/Field operators.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 396,
-      "exportedPath": "Quantum Mechanics/Field operators.html",
+      "exportedPath": "quantum-mechanics/field-operators.html",
       "dependencies": []
     },
     "Quantum Mechanics/Gauge transformation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 630,
-      "exportedPath": "Quantum Mechanics/Gauge transformation.html",
+      "exportedPath": "quantum-mechanics/gauge-transformation.html",
       "dependencies": []
     },
     "Quantum Mechanics/Heisenberg picture.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1389,
-      "exportedPath": "Quantum Mechanics/Heisenberg picture.html",
+      "exportedPath": "quantum-mechanics/heisenberg-picture.html",
       "dependencies": []
     },
     "Quantum Mechanics/Hellmann-Feynman theorem.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 227,
-      "exportedPath": "Quantum Mechanics/Hellmann-Feynman theorem.html",
+      "exportedPath": "quantum-mechanics/hellmann-feynman-theorem.html",
       "dependencies": []
     },
     "Quantum Mechanics/Hermitian operator.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 390,
-      "exportedPath": "Quantum Mechanics/Hermitian operator.html",
+      "exportedPath": "quantum-mechanics/hermitian-operator.html",
       "dependencies": []
     },
     "Quantum Mechanics/LSZ Reduction formula.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 701,
-      "exportedPath": "Quantum Mechanics/LSZ Reduction formula.html",
+      "exportedPath": "quantum-mechanics/lsz-reduction-formula.html",
       "dependencies": []
     },
     "Quantum Mechanics/Outline of quantum field theory.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 4322,
-      "exportedPath": "Quantum Mechanics/Outline of quantum field theory.html",
+      "exportedPath": "quantum-mechanics/outline-of-quantum-field-theory.html",
       "dependencies": []
     },
     "Quantum Mechanics/Path integral.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 4550,
-      "exportedPath": "Quantum Mechanics/Path integral.html",
+      "exportedPath": "quantum-mechanics/path-integral.html",
       "dependencies": []
     },
     "Quantum Mechanics/Pieces in standard model.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 877,
-      "exportedPath": "Quantum Mechanics/Pieces in standard model.html",
+      "exportedPath": "quantum-mechanics/pieces-in-standard-model.html",
       "dependencies": []
     },
     "Quantum Mechanics/Position and momentum representation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 382,
-      "exportedPath": "Quantum Mechanics/Position and momentum representation.html",
+      "exportedPath": "quantum-mechanics/position-and-momentum-representation.html",
       "dependencies": []
     },
     "Quantum Mechanics/Quantum adiabatic theorem.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 679,
-      "exportedPath": "Quantum Mechanics/Quantum adiabatic theorem.html",
+      "exportedPath": "quantum-mechanics/quantum-adiabatic-theorem.html",
       "dependencies": []
     },
     "Quantum Mechanics/Schrödinger picture.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 552,
-      "exportedPath": "Quantum Mechanics/Schrödinger picture.html",
+      "exportedPath": "quantum-mechanics/schrödinger-picture.html",
       "dependencies": []
     },
     "Quantum Mechanics/Unitary transformation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 821,
-      "exportedPath": "Quantum Mechanics/Unitary transformation.html",
+      "exportedPath": "quantum-mechanics/unitary-transformation.html",
       "dependencies": []
     },
     "Quantum Mechanics/Variational principle.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 324,
-      "exportedPath": "Quantum Mechanics/Variational principle.html",
+      "exportedPath": "quantum-mechanics/variational-principle.html",
       "dependencies": []
     },
     "Quantum Mechanics/Wave function and state vectors.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1121,
-      "exportedPath": "Quantum Mechanics/Wave function and state vectors.html",
+      "exportedPath": "quantum-mechanics/wave-function-and-state-vectors.html",
       "dependencies": []
     },
     "Quantum Mechanics/Wigner's theorem.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 151,
-      "exportedPath": "Quantum Mechanics/Wigner's theorem.html",
+      "exportedPath": "quantum-mechanics/wigner's-theorem.html",
       "dependencies": []
     },
     "Quantum Mechanics/WKB approximation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 777,
-      "exportedPath": "Quantum Mechanics/WKB approximation.html",
+      "exportedPath": "quantum-mechanics/wkb-approximation.html",
       "dependencies": []
     },
     "Thermodynamics/Boltzmann & Saha Equation.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 742,
-      "exportedPath": "Thermodynamics/Boltzmann & Saha Equation.html",
+      "exportedPath": "thermodynamics/boltzmann-&-saha-equation.html",
       "dependencies": []
     },
     "Thermodynamics/Equipartition Theorem.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1725,
-      "exportedPath": "Thermodynamics/Equipartition Theorem.html",
+      "exportedPath": "thermodynamics/equipartition-theorem.html",
       "dependencies": []
     },
     "Thermodynamics/Laws of Thermodynamics.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 657,
-      "exportedPath": "Thermodynamics/Laws of Thermodynamics.html",
+      "exportedPath": "thermodynamics/laws-of-thermodynamics.html",
       "dependencies": []
     },
     "Thermodynamics/Statistical Distributions.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1149,
-      "exportedPath": "Thermodynamics/Statistical Distributions.html",
+      "exportedPath": "thermodynamics/statistical-distributions.html",
       "dependencies": []
     },
     "Thermodynamics/Thermodynamic Process.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 2350,
-      "exportedPath": "Thermodynamics/Thermodynamic Process.html",
+      "exportedPath": "thermodynamics/thermodynamic-process.html",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 713,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "Stationary-action principle.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 804,
-      "exportedPath": "Stationary-action principle.html",
+      "exportedPath": "stationary-action-principle.html",
       "dependencies": []
     },
     "Useful constants and units.md": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 1539,
-      "exportedPath": "Useful constants and units.html",
+      "exportedPath": "useful-constants-and-units.html",
+      "dependencies": [
+        "attachments/screenshot-from-2022-07-21-19-27-43.png"
+      ]
+    },
+    "lib/media/kolmogorov-scaling-in-the-inertial-range.jpg": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 23843,
+      "exportedPath": "lib/media/kolmogorov-scaling-in-the-inertial-range.jpg",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20220721000248.png": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 347985,
+      "exportedPath": "lib/media/pasted-image-20220721000248.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230226193140.png": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 33438,
+      "exportedPath": "lib/media/pasted-image-20230226193140.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230322163105.png": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 41829,
+      "exportedPath": "lib/media/pasted-image-20230322163105.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240119102924.png": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 90411,
+      "exportedPath": "lib/media/pasted-image-20240119102924.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20231202234215.png": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 25462,
+      "exportedPath": "lib/media/pasted-image-20231202234215.png",
+      "dependencies": []
+    },
+    "math/attachments/3sigma.jpg": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 26764,
+      "exportedPath": "math/attachments/3sigma.jpg",
+      "dependencies": []
+    },
+    "attachments/screenshot-from-2022-07-21-19-27-43.png": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 95684,
+      "exportedPath": "attachments/screenshot-from-2022-07-21-19-27-43.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1754990460903,
+      "modifiedTime": 1754994655428,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Zero.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_zero.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 1368,
-      "exportedPath": "lib/fonts/MathJax_Zero.woff",
+      "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Main-Regular.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_main-regular.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 34160,
-      "exportedPath": "lib/fonts/MathJax_Main-Regular.woff",
+      "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Main-Bold.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_main-bold.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 34464,
-      "exportedPath": "lib/fonts/MathJax_Main-Bold.woff",
+      "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Math-Italic.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_math-italic.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 19360,
-      "exportedPath": "lib/fonts/MathJax_Math-Italic.woff",
+      "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Main-Italic.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_main-italic.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 20832,
-      "exportedPath": "lib/fonts/MathJax_Main-Italic.woff",
+      "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Math-BoldItalic.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_math-bolditalic.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 19776,
-      "exportedPath": "lib/fonts/MathJax_Math-BoldItalic.woff",
+      "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Size1-Regular.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_size1-regular.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 5792,
-      "exportedPath": "lib/fonts/MathJax_Size1-Regular.woff",
+      "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Size2-Regular.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_size2-regular.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 5464,
-      "exportedPath": "lib/fonts/MathJax_Size2-Regular.woff",
+      "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Size3-Regular.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_size3-regular.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 3244,
-      "exportedPath": "lib/fonts/MathJax_Size3-Regular.woff",
+      "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Size4-Regular.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_size4-regular.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 5148,
-      "exportedPath": "lib/fonts/MathJax_Size4-Regular.woff",
+      "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_AMS-Regular.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_ams-regular.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 40808,
-      "exportedPath": "lib/fonts/MathJax_AMS-Regular.woff",
+      "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Calligraphic-Regular.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_calligraphic-regular.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 9600,
-      "exportedPath": "lib/fonts/MathJax_Calligraphic-Regular.woff",
+      "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Calligraphic-Bold.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_calligraphic-bold.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 9908,
-      "exportedPath": "lib/fonts/MathJax_Calligraphic-Bold.woff",
+      "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Fraktur-Regular.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_fraktur-regular.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 21480,
-      "exportedPath": "lib/fonts/MathJax_Fraktur-Regular.woff",
+      "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Fraktur-Bold.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_fraktur-bold.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 22340,
-      "exportedPath": "lib/fonts/MathJax_Fraktur-Bold.woff",
+      "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_SansSerif-Regular.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_sansserif-regular.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 12660,
-      "exportedPath": "lib/fonts/MathJax_SansSerif-Regular.woff",
+      "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_SansSerif-Bold.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_sansserif-bold.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 15944,
-      "exportedPath": "lib/fonts/MathJax_SansSerif-Bold.woff",
+      "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_SansSerif-Italic.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_sansserif-italic.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 14628,
-      "exportedPath": "lib/fonts/MathJax_SansSerif-Italic.woff",
+      "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Script-Regular.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_script-regular.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 11852,
-      "exportedPath": "lib/fonts/MathJax_Script-Regular.woff",
+      "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Typewriter-Regular.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_typewriter-regular.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 17604,
-      "exportedPath": "lib/fonts/MathJax_Typewriter-Regular.woff",
+      "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Vector-Regular.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_vector-regular.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 1136,
-      "exportedPath": "lib/fonts/MathJax_Vector-Regular.woff",
+      "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/MathJax_Vector-Bold.woff": {
-      "modifiedTime": 1754990460903,
+    "lib/fonts/mathjax_vector-bold.woff": {
+      "modifiedTime": 1754994655428,
       "sourceSize": 1116,
-      "exportedPath": "lib/fonts/MathJax_Vector-Bold.woff",
+      "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 40120,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 6927,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 138258,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 483,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/snippets.css": {
+      "modifiedTime": 1754994655428,
+      "sourceSize": 25,
+      "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
     }
   }
